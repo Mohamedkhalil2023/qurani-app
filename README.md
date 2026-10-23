@@ -16,7 +16,7 @@ Qurani lets you read the Holy Quran with Arabic text, translations, bookmarks, a
 
 ## Download
 
-Download the latest version from the [GitHub Releases](https://github.com/qurani-app/qurani/releases) page.
+Download the latest version from [GitHub Releases](https://github.com/qurani-app/qurani-app/releases).
 
 | Platform | File | Requirements |
 |---|---|---|
@@ -25,13 +25,13 @@ Download the latest version from the [GitHub Releases](https://github.com/qurani
 
 ### Windows
 
-1. Download the `.exe` installer.
+1. Download the `.exe` installer from [Releases](https://github.com/qurani-app/qurani-app/releases).
 2. Run the installer.
 3. Follow the installation instructions.
 
 ### Android
 
-1. Download the `.apk` file.
+1. Download the `.apk` file from [Releases](https://github.com/qurani-app/qurani-app/releases).
 2. Allow installation from the download source if prompted.
 3. Install and open Qurani.
 
@@ -46,13 +46,13 @@ Download the latest version from the [GitHub Releases](https://github.com/qurani
 - Node.js 18 or later
 - npm 9 or later
 - Git
-- Android SDK for Android builds, if required by the project
+- Android SDK, if required by the Android build setup
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/qurani-app/qurani.git
-cd qurani
+git clone https://github.com/qurani-app/qurani-app.git
+cd qurani-app
 npm install
 ```
 
@@ -74,12 +74,12 @@ npm run build:windows
 npm run build:android
 ```
 
-Build outputs are generated in the `dist/` directory if configured in the project.
+Build outputs depend on the project configuration and may be generated in the `dist/` directory.
 
 ## Project Structure
 
 ```text
-qurani/
+qurani-app/
 ├── assets/
 │   ├── logo.png
 │   └── preview.png
@@ -96,7 +96,7 @@ Contributions are welcome. Open an issue to report bugs or suggest features, or 
 
 ## Issues
 
-[GitHub Issues](https://github.com/qurani-app/qurani/issues)
+Report bugs and request features on [GitHub Issues](https://github.com/qurani-app/qurani-app/issues).
 
 ## License
 
