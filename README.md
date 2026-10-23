@@ -2,7 +2,7 @@
 
 A Quran reader for Windows and Android.
 
-Qurani lets you read the Holy Quran with Arabic text, translations, bookmarks, and offline access.
+**Website:** https://qurani.xo.je
 
 ## Features
 
@@ -46,7 +46,7 @@ Download the latest version from [GitHub Releases](https://github.com/qurani-app
 - Node.js 18 or later
 - npm 9 or later
 - Git
-- Android SDK, if required by the Android build setup
+- Android SDK, if required by the project
 
 ### Clone the Repository
 
@@ -74,7 +74,7 @@ npm run build:windows
 npm run build:android
 ```
 
-Build outputs depend on the project configuration and may be generated in the `dist/` directory.
+Build commands and output locations depend on the project configuration.
 
 ## Project Structure
 
@@ -101,3 +101,8 @@ Report bugs and request features on [GitHub Issues](https://github.com/qurani-ap
 ## License
 
 See the [LICENSE](LICENSE) file for details.
+
+---
+
+Website: https://qurani.xo.je  
+Repository: https://github.com/qurani-app/qurani-app
