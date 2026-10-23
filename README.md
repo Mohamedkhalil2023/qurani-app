@@ -1,87 +1,54 @@
- <div align="center">
-
-<img src="assets/logo.png" alt="Qurani Logo" width="96" height="96">
-
 # Qurani
 
-**Your Quran, Your Way.**
+A Quran reader for Windows and Android.
 
-A modern Quran reader for Windows.
+Qurani lets you read the Holy Quran with Arabic text, translations, bookmarks, and offline access.
 
-Beautiful Arabic typography. Multiple translations. Offline reading. One clean, distraction-free desktop experience.
+## Features
 
-<br>
+- Read the Holy Quran in Arabic
+- Multiple translations
+- Adjustable Arabic font size
+- Bookmarks and reading progress
+- Offline reading
+- Dark theme
+- No advertisements
 
-[![Latest Release](https://img.shields.io/github/v/release/qurani-app/qurani?style=flat-square&color=3B82F6)](https://github.com/qurani-app/qurani/releases)
-[![License](https://img.shields.io/github/license/qurani-app/qurani?style=flat-square&color=3B82F6)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows-3B82F6?style=flat-square)](https://github.com/qurani-app/qurani/releases)
+## Download
 
-<br>
+Download the latest version from the [GitHub Releases](https://github.com/qurani-app/qurani/releases) page.
 
-[**Download for Windows**](#-download) · [Features](#-features) · [Build from Source](#-build-from-source) · [Contributing](#-contributing)
+| Platform | File | Requirements |
+|---|---|---|
+| Windows | `Qurani-Setup.exe` | Windows 10 or later (64-bit) |
+| Android | `Qurani.apk` | Android 8.0 or later |
 
-<br>
+### Windows
 
-<img src="assets/preview.png" alt="Qurani desktop application preview" width="850">
+1. Download the `.exe` installer.
+2. Run the installer.
+3. Follow the installation instructions.
 
-</div>
+### Android
 
----
+1. Download the `.apk` file.
+2. Allow installation from the download source if prompted.
+3. Install and open Qurani.
 
-## 📖 About Qurani
+## Screenshots
 
-Qurani is a lightweight Windows desktop application designed to make reading the Holy Quran simple, comfortable, and accessible.
+![Qurani Preview](assets/preview.png)
 
-With a minimal interface, elegant Arabic text, and useful reading tools, Qurani helps you focus on the Quran without unnecessary distractions.
-
-## ✨ Features
-
-- **Quran Reader** — read the Holy Quran in a clean desktop interface.
-- **Arabic Typography** — comfortable, adjustable Arabic text.
-- **Multiple Translations** — explore translations in supported languages.
-- **Bookmarks & Notes** — save verses and keep personal notes.
-- **Offline Reading** — read downloaded Quran content without an internet connection.
-- **Reading Progress** — track your reading sessions and daily goals.
-- **Dark Theme** — a sleek black interface with beautiful blue accents.
-- **No Ads** — enjoy a distraction-free reading experience.
-
-*Features depend on the functionality implemented in the current release.*
-
-## 💻 Download
-
-Get Qurani for Windows.
-
-<div align="center">
-
-### Qurani for Windows
-
-**Windows 10 / 11 · 64-bit**
-
-[**↓ Download Qurani (.exe)**](https://github.com/qurani-app/qurani/releases/latest)
-
-Free · Clean · Distraction-free
-
-</div>
-
-Download the installer from the latest GitHub release, run the `.exe`, and follow the setup instructions.
-
-## 🚀 Installation
-
-1. Visit the [latest release](https://github.com/qurani-app/qurani/releases/latest).
-2. Download the Qurani Windows installer.
-3. Open the `.exe` file.
-4. Complete the installation.
-5. Launch Qurani from your desktop or Start menu.
-
-## 🛠️ Build from Source
+## Building from Source
 
 ### Requirements
 
-- Node.js 18+
-- npm 9+
+- Node.js 18 or later
+- npm 9 or later
 - Git
+- Android SDK for Android builds, if required by the project
 
-### Setup
+### Clone the repository
 
 ```bash
 git clone https://github.com/qurani-app/qurani.git
@@ -89,21 +56,27 @@ cd qurani
 npm install
 ```
 
-### Run in development mode
+### Development
 
 ```bash
 npm run dev
 ```
 
-### Build the Windows installer
+### Build for Windows
 
 ```bash
 npm run build:windows
 ```
 
-The generated installer should be available in the `dist/` directory, depending on the project's build configuration.
+### Build for Android
 
-## 📁 Project Structure
+```bash
+npm run build:android
+```
+
+Build outputs are generated in the `dist/` directory if configured in the project.
+
+## Project Structure
 
 ```text
 qurani/
@@ -117,35 +90,14 @@ qurani/
 └── README.md
 ```
 
-*Update this structure to match the actual project.*
+## Contributing
 
-## 🤝 Contributing
+Contributions are welcome. Open an issue to report bugs or suggest features, or submit a pull request.
 
-Contributions are welcome!
+## Issues
 
-1. Fork the repository.
-2. Create a branch for your changes.
-3. Make and test your improvements.
-4. Submit a pull request.
+[GitHub Issues](https://github.com/qurani-app/qurani/issues)
 
-## 🐛 Issues & Suggestions
+## License
 
-Found a bug or have an idea?
-
-[**Open an issue on GitHub →**](https://github.com/qurani-app/qurani/issues)
-
-## 📜 License
-
-Qurani is distributed under the license specified in [`LICENSE`](LICENSE).
-
----
-
-<div align="center">
-
-<img src="assets/logo.png" alt="Qurani Logo" width="40">
-
-**Qurani — Your Quran, Your Way.**
-
-Built with care.
-
-</div>
+See the [LICENSE](LICENSE) file for details.
